@@ -1,5 +1,3 @@
-// src/data.js
-
 export const destinosTuristicos = [
   {
     id: 1,
@@ -31,6 +29,6 @@ export const destinosTuristicos = [
     ciudad: "El Cairo",
     duracionDias: 12,
     precioCOP: 6750000,
-    imagenDinamica: "https://images.unsplash.com/photo-1503177119275-0aa32b3a7447?auto=format&fit=crop&w=500"
-  }
+    imagenDinamica: "https://upload.wikimedia.org/wikipedia/commons/6/6c/Egypt.Giza.Sphinx.02.jpg"
+  },
 ];
