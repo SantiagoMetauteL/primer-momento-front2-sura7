@@ -28,3 +28,5 @@
 | Samuel Andrey Pantoja Sánchez | RllySaM | Cartelera de Cine |  |
 | Carlos Daniel Guzmán Varela | cargv0 | Plataforma de Cursos Online |  |
 | Sara Melissa Vera Mora | saraveram0404-creator | Gira de Banda Musical |  |
+| Emanuel Pabón | N/A | Catálogo de Tienda de Tecnología |  |
+| Juan Pablo Ramírez | N/A | Gira de Banda Musical |  |
