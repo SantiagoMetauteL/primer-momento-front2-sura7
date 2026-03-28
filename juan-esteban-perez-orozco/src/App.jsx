@@ -4,6 +4,13 @@ import './App.css'
 
 function App() {
     return (
+        <section>
+            {
+                menu.map((menu)=> (
+                    <MenuItem menu={menu} />
+                ))
+            }
+        </section>
 
 
 
