@@ -6,7 +6,7 @@ export const movies = [
     director: "Denis Villeneuve",
     genero: "Ciencia ficción",
     duracion: "166 min",
-    poster: "https://image.tmdb.org/t/p/w500/8b8R8l88Qje9dnbOEu9pS6Cp2jN.jpg"
+    poster: "https://pics.filmaffinity.com/Dune_Parte_Dos-288678616-large.jpg"
   },
   {
     id: 2,
@@ -14,7 +14,7 @@ export const movies = [
     director: "Christopher Nolan",
     genero: "Drama histórico",
     duracion: "180 min",
-    poster: "https://image.tmdb.org/t/p/w500/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg"
+    poster: "https://m.media-amazon.com/images/M/MV5BNTFlZDI1YWQtMTVjNy00YWU1LTg2YjktMTlhYmRiYzQ3NTVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
   },
   {
     id: 3,
@@ -22,7 +22,7 @@ export const movies = [
     director: "Paul King",
     genero: "Fantasía",
     duracion: "116 min",
-    poster: "https://image.tmdb.org/t/p/w500/qhb1qOilapbapELWrAyBvv/VG0.jpg"
+    poster: "https://m.media-amazon.com/images/M/MV5BZDc4OTNiMDktNjA0NC00NzJiLThiNWEtN2E0MDljYTUxY2ExXkEyXkFqcGc@._V1_.jpg"
   },
   {
     id: 4,
@@ -30,6 +30,6 @@ export const movies = [
     director: "Martin Scorsese",
     genero: "Crimen",
     duracion: "206 min",
-    poster: "https://image.tmdb.org/t/p/w500/7pWk4rdVz8PLT7VFZRrFvGp0p4c.jpg"
+    poster: "https://upload.wikimedia.org/wikipedia/en/thumb/8/88/Killers_of_the_Flower_Moon_film_poster.jpg/250px-Killers_of_the_Flower_Moon_film_poster.jpg"
   }
 ];
