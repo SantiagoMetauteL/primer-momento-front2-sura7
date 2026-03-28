@@ -42,3 +42,6 @@ const ProductCard = ({ nombreProducto, precio, categoria, imagen }) => {
 };
 
 export default ProductCard;
+
+
+ // Commit 2 jeje 
