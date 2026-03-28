@@ -1,16 +1,27 @@
+// src/DestinosCard.jsx
+
+// Usamos PascalCase (Criterio 4) [cite: 26, 27]
 function DestinosCard({ viaje }) {
   return (
-    <div style={{ border: '1px solid #ccc', borderRadius: '8px', padding: '16px', margin: '10px', textAlign: 'center', backgroundColor: '#fff' }}>
+    <div style={{ 
+      border: '1px solid #ccc', 
+      borderRadius: '10px', 
+      padding: '15px', 
+      margin: '10px', 
+      width: '280px',
+      textAlign: 'center' 
+    }}>
+      {/* Imagen dinámica (Criterio 5 y 6) [cite: 32, 40] */}
       <img 
         src={viaje.imagenDinamica} 
         alt={viaje.ciudad} 
-        style={{ width: '100%', height: '200px', objectFit: 'cover', borderRadius: '4px' }} 
+        style={{ width: '100%', height: '180px', borderRadius: '5px', objectFit: 'cover' }} 
       />
-      <h2 style={{ color: '#12161a' }}>{viaje.pais} - {viaje.ciudad}</h2>
-      <p><strong>Duración:</strong> {viaje.duracionDias} días</p>
-      <p style={{ fontSize: '1.2em', color: '#b0218a' }}>
-        <strong>Precio:</strong> ${viaje.precioCOP.toLocaleString('es-CO')} COP
-      </p>
+      
+      {/* Información del viaje (Criterio 6) [cite: 40] */}
+      <h3>{viaje.pais} - {viaje.ciudad}</h3>
+      <p>⏳ Duración: {viaje.duracionDias} días</p>
+      <p>💰 Precio: <strong>${viaje.precioCOP.toLocaleString()} COP</strong></p>
     </div>
   );
 }

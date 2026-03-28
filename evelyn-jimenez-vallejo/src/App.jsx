@@ -10,7 +10,6 @@ function App() {
         gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', 
         gap: '20px' 
       }}>
-        {/* Aquí usas .map() para cumplir con el criterio 6 de la rúbrica */}
         {destinosTuristicos.map((destino) => (
           <DestinosCard key={destino.id} viaje={destino} />
         ))}
