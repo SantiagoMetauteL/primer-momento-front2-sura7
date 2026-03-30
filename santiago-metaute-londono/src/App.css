@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: sans-serif;
-  background: linear-gradient(135deg, #1e1e2f 0%, #121212 100%);
+  background: linear-gradient(135deg, #b3b3fa 0%, #6b6b6b 100%);
   color: white;
   min-height: 100vh;
 }
@@ -26,7 +26,7 @@ body {
 }
 
 .card {
-  background: #252538;
+  background: #7e7ec1;
   border-radius: 15px;
   overflow: hidden;
   transition: 0.3s;
