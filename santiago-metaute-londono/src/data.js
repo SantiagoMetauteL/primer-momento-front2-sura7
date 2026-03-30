@@ -30,5 +30,22 @@ export const cursos = [
     horasSemanales: 4,
     nivel: "Avanzado",
     imagen: "https://img.freepik.com/foto-gratis/hombre-guapo-joven-cuadernos-concepto-e-learning-cursos_1258-26588.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    id:4,
+    nombreCurso: "JavaScript avanzado",
+    profesor: "Hans Sebastian Velasquez Cordoba",
+    horasSemanales: 6,
+    nivel: "Avanzado",
+    imagen: "https://img.freepik.com/foto-gratis/vision-lateral-mujer-sonriente-posando_23-2149434904.jpg?semt=ais_hybrid&w=740&q=80"
+  },
+  {
+    id:4,
+    nombreCurso: "Java avanzado",
+    profesor: "Jorge Andres Flores Velez",
+    horasSemanales: 5,
+    nivel: "Avanzado",
+    imagen: "https://www.shutterstock.com/image-photo/portrait-teacher-stand-confidently-use-260nw-2639435105.jpg"
   }
+  
 ];
